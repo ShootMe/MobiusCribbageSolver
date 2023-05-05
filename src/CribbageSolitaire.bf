@@ -335,7 +335,7 @@ public class CribbageSolitaire
 		for (int i = 0; i < 52; i++)
 		{
 			int id = i >= 39 ? i - 13 : i >= 26 ? i + 13 : i;
-			int c = (id / 13) | (id % 13) << 2;
+			int c = (id % 13);
 			Cards[i] = .(c);
 		}
 

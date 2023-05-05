@@ -22,3 +22,5 @@ Calculates the optimal solution to a deal in the game by Zachtronics
   - Average solve time is about 0.8s
   - Lowest score in the first 120 deals is 81 in game #57
   - Highest score in the first 120 deals is 118 in game #70 and #72
+  - Lowest score found from just random deals is 76 for deal T64K493TA553A_Q672QA6A95K5T_8Q7K8Q89J2792_3JT4J84J26K73
+  - Highest score found from just random deals is 140 for deal J99A7926A4A65_QQ79KA3KK8823_Q523TTJ54K82T_8J64Q7T7563J4
