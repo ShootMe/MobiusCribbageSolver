@@ -1,0 +1,12 @@
+FileVersion = 1
+
+[Project]
+Name = "MobiusCribbageSolver"
+StartupObject = "Program"
+
+[Configs.Debug.Win64]
+DebugCommandArguments = "75AQJ9Q5723Q9_22K5A288KTKJT_7J5TAAK6884J6_T64399Q734643"
+
+[Configs.Release.Win64]
+CLibType = "Dynamic"
+DebugCommandArguments = "75AQJ9Q5723Q9_22K5A288KTKJT_7J5TAAK6884J6_T64399Q734643"
