@@ -4,8 +4,10 @@ Calculates the optimal solution to a deal in the game by Zachtronics
 ## Running
   - Compile and pass in the deal to be solved
   - ex) .exe 75AQJ9Q5723Q9_22K5A288KTKJT_7J5TAAK6884J6_T64399Q734643
+  - or pass in the deal number (can be a number beyond the 2000 in the game)
+  - ex) .exe 1
   - Will output the best score and steps to achieve
-  - ex) Best Score: 110 Steps: 122_122_11222_2244231_3333_414443_141_2244_1131_32441413_334_33 Took: 00:00:01.1040290
+  - ex) Deal: 75AQJ9Q5723Q9_22K5A288KTKJT_7J5TAAK6884J6_T64399Q734643 Score: 110 Steps: 122_122_11222_2244231_3333_414443_141_2244_1131_32441413_334_33 Took: 00:00:01.1040290
 
 ## Deal Format
   - Pile1_Pil2_Pile3_Pile4
@@ -17,10 +19,12 @@ Calculates the optimal solution to a deal in the game by Zachtronics
   - In the above example, 122_ , means the first stack is pile 1, pile 2, pile 2
   
 ## Stats
-  - Fastest deal in the first 120 deals of the game is #95 taking about 0.3s
-  - Slowest deal in the first 120 deals of the game is #110 taking about 2.0s
-  - Average solve time is about 0.8s
-  - Lowest score in the first 120 deals is 81 in game #57
-  - Highest score in the first 120 deals is 118 in game #70 and #72
+  - Game has 2000 total deals
+  - Fastest deal is #1479 taking about 0.2s
+  - Slowest deal is #1879 taking about 3.9s
+  - Took 1704s (28min 24s) to solve all 2000 deals
+  - Average solve time is about 0.85s
+  - Lowest score is 80 in deal #1031
+  - Highest score is 126 in deal #969
   - Lowest score found from just random deals is 76 for deal T64K493TA553A_Q672QA6A95K5T_8Q7K8Q89J2792_3JT4J84J26K73
   - Highest score found from just random deals is 140 for deal J99A7926A4A65_QQ79KA3KK8823_Q523TTJ54K82T_8J64Q7T7563J4
