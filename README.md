@@ -22,9 +22,17 @@ Calculates the optimal solution to a deal in the game by Zachtronics
   - Game has 2000 total deals
   - Fastest deal is #1479 taking about 0.2s
   - Slowest deal is #1879 taking about 3.9s
-  - Took 1704s (28min 24s) to solve all 2000 deals
+  - Took 1704s (28m 24s) to solve all 2000 deals
   - Average solve time is about 0.85s
   - Lowest score is 80 in deal #1031
   - Highest score is 126 in deal #969
-  - Lowest score found from just random deals is 76 for deal T64K493TA553A_Q672QA6A95K5T_8Q7K8Q89J2792_3JT4J84J26K73
-  - Highest score found from just random deals is 140 for deal J99A7926A4A65_QQ79KA3KK8823_Q523TTJ54K82T_8J64Q7T7563J4
+ 
+ ## Extra Stats
+  - Going beyond and solving the first million deals
+  - Fastest deal is #776597 taking about 0.16s
+  - Slowest deal is #358167 taking about 6.86s
+  - Took 863788s (9d 23h 56m 28s) to solve all 1000000 deals
+  - Average solve time is about 0.86s
+  - Lowest score is 75 in deal #184485
+  - Highest score is 141 in deal #612524
+  - Average score is 101. Most occuring score is 100, with 58513 out of the 1000000.
